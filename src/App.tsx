@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Routes, Route, Navigate, useNavigate, useLocation } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { getSession, signOut, type AppUser } from './auth';
 import LoginPage from './pages/LoginPage';
 import CallPage from './pages/CallPage';

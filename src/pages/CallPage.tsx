@@ -160,7 +160,7 @@ export default function CallPage() {
                 </div>
               )}
 
-              {callStatus === 'connected' ? (
+              {callStatus === 'connected' || callStatus === 'disconnecting' ? (
                 <button 
                   className="btn btn--destructive" 
                   style={{ width: '100%', marginTop: '0.5rem' }}
